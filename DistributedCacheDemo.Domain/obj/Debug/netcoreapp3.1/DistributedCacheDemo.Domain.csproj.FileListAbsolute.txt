@@ -1,0 +1,9 @@
+D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Domain\obj\Debug\netcoreapp3.1\DistributedCacheDemo.Domain.csprojAssemblyReference.cache
+D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Domain\obj\Debug\netcoreapp3.1\DistributedCacheDemo.Domain.AssemblyInfoInputs.cache
+D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Domain\obj\Debug\netcoreapp3.1\DistributedCacheDemo.Domain.AssemblyInfo.cs
+D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Domain\obj\Debug\netcoreapp3.1\DistributedCacheDemo.Domain.csproj.CoreCompileInputs.cache
+D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Domain\bin\Debug\netcoreapp3.1\DistributedCacheDemo.Domain.deps.json
+D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Domain\bin\Debug\netcoreapp3.1\DistributedCacheDemo.Domain.dll
+D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Domain\bin\Debug\netcoreapp3.1\DistributedCacheDemo.Domain.pdb
+D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Domain\obj\Debug\netcoreapp3.1\DistributedCacheDemo.Domain.dll
+D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Domain\obj\Debug\netcoreapp3.1\DistributedCacheDemo.Domain.pdb

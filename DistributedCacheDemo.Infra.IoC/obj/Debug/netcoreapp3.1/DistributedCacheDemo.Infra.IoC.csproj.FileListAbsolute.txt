@@ -1,0 +1,16 @@
+D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Infra.IoC\obj\Debug\netcoreapp3.1\DistributedCacheDemo.Infra.IoC.csprojAssemblyReference.cache
+D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Infra.IoC\obj\Debug\netcoreapp3.1\DistributedCacheDemo.Infra.IoC.AssemblyInfoInputs.cache
+D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Infra.IoC\obj\Debug\netcoreapp3.1\DistributedCacheDemo.Infra.IoC.AssemblyInfo.cs
+D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Infra.IoC\obj\Debug\netcoreapp3.1\DistributedCacheDemo.Infra.IoC.csproj.CoreCompileInputs.cache
+D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Infra.IoC\bin\Debug\netcoreapp3.1\DistributedCacheDemo.Infra.IoC.deps.json
+D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Infra.IoC\bin\Debug\netcoreapp3.1\DistributedCacheDemo.Infra.IoC.dll
+D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Infra.IoC\bin\Debug\netcoreapp3.1\DistributedCacheDemo.Infra.IoC.pdb
+D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Infra.IoC\bin\Debug\netcoreapp3.1\DistributedCacheDemo.Application.dll
+D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Infra.IoC\bin\Debug\netcoreapp3.1\DistributedCacheDemo.Domain.dll
+D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Infra.IoC\bin\Debug\netcoreapp3.1\DistributedCacheDemo.Infra.Data.dll
+D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Infra.IoC\bin\Debug\netcoreapp3.1\DistributedCacheDemo.Application.pdb
+D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Infra.IoC\bin\Debug\netcoreapp3.1\DistributedCacheDemo.Domain.pdb
+D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Infra.IoC\bin\Debug\netcoreapp3.1\DistributedCacheDemo.Infra.Data.pdb
+D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Infra.IoC\obj\Debug\netcoreapp3.1\DistributedCacheDemo.Infra.IoC.csproj.CopyComplete
+D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Infra.IoC\obj\Debug\netcoreapp3.1\DistributedCacheDemo.Infra.IoC.dll
+D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Infra.IoC\obj\Debug\netcoreapp3.1\DistributedCacheDemo.Infra.IoC.pdb

@@ -1,0 +1,16 @@
+D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Application\bin\Debug\netcoreapp3.1\DistributedCacheDemo.Domain.dll
+D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Application\bin\Debug\netcoreapp3.1\DistributedCacheDemo.Infra.Data.dll
+D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Application\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Application\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Application\obj\Debug\netcoreapp3.1\DistributedCacheDemo.Application.csprojAssemblyReference.cache
+D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Application\obj\Debug\netcoreapp3.1\DistributedCacheDemo.Application.AssemblyInfoInputs.cache
+D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Application\obj\Debug\netcoreapp3.1\DistributedCacheDemo.Application.AssemblyInfo.cs
+D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Application\obj\Debug\netcoreapp3.1\DistributedCacheDemo.Application.csproj.CoreCompileInputs.cache
+D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Application\bin\Debug\netcoreapp3.1\DistributedCacheDemo.Application.deps.json
+D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Application\bin\Debug\netcoreapp3.1\DistributedCacheDemo.Application.dll
+D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Application\bin\Debug\netcoreapp3.1\DistributedCacheDemo.Application.pdb
+D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Application\bin\Debug\netcoreapp3.1\DistributedCacheDemo.Domain.pdb
+D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Application\bin\Debug\netcoreapp3.1\DistributedCacheDemo.Infra.Data.pdb
+D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Application\obj\Debug\netcoreapp3.1\DistributedCacheDemo.Application.csproj.CopyComplete
+D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Application\obj\Debug\netcoreapp3.1\DistributedCacheDemo.Application.dll
+D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Application\obj\Debug\netcoreapp3.1\DistributedCacheDemo.Application.pdb

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "rjw0HKunfAd88ZQipxJBkAc/JhP3DEJDfjbB4DVs0U4Oe/WpW28HnLUTMLCBfOSrLExrRdHywkdmcxXpGRIwXQ==",
+  "success": true,
+  "projectFilePath": "D:\\Job\\Code\\C#\\DistributedCacheDemo\\DistributedCacheDemo.Infra.Data\\DistributedCacheDemo.Infra.Data.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pc\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
