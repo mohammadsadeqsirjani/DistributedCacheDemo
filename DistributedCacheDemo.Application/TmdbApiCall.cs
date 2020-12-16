@@ -1,5 +1,6 @@
 ﻿using DistributedCacheDemo.Domain.Models.Actor;
 using DistributedCacheDemo.Domain.Models.Movie;
+using DistributedCacheDemo.Infra.Data;
 using Microsoft.Extensions.Caching.Distributed;
 using Newtonsoft.Json;
 using System;
@@ -47,8 +48,8 @@ namespace DistributedCacheDemo.Application
                 serializedMovies = JsonConvert.SerializeObject(moviesList);
                 encodedMovies = Encoding.UTF8.GetBytes(serializedMovies);
                 var options = new DistributedCacheEntryOptions()
-                    .SetSlidingExpiration(TimeSpan.FromMinutes(5))
-                    .SetAbsoluteExpiration(DateTime.Now.AddHours(6));
+                    .SetSlidingExpiration(TimeSpan.FromMinutes(1))
+                    .SetAbsoluteExpiration(DateTime.Now.AddMinutes(5));
                 await _distributedCache.SetAsync(cacheKey, encodedMovies, options);
             }
             return moviesList;

@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using DistributedCacheDemo.Infra.Data;
 using WeatherForecast = DistributedCacheDemo.Domain.Models.Weather.WeatherForecast;
 
 namespace DistributedCacheDemo.Api.Controllers

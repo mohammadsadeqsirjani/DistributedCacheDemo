@@ -2,7 +2,6 @@
 using DistributedCacheDemo.Infra.Data;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
-using IWeatherForecast = DistributedCacheDemo.Application.IWeatherForecast;
 
 namespace DistributedCacheDemo.Infra.IoC.Extensions
 {

@@ -1,4 +1,4 @@
-﻿using DistributedCacheDemo.Application;
+﻿using DistributedCacheDemo.Infra.Data;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Threading.Tasks;

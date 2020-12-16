@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace DistributedCacheDemo.Application
+namespace DistributedCacheDemo.Infra.Data
 {
     public interface ITmdbApiCall
     {

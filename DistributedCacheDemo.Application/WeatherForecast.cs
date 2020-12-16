@@ -4,6 +4,8 @@ using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
+using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -46,8 +48,8 @@ namespace DistributedCacheDemo.Application
                 serializedForecasts = JsonConvert.SerializeObject(forecastList);
                 encodedForecasts = Encoding.UTF8.GetBytes(serializedForecasts);
                 var options = new DistributedCacheEntryOptions()
-                    .SetSlidingExpiration(TimeSpan.FromMinutes(5))
-                    .SetAbsoluteExpiration(DateTime.Now.AddHours(6));
+                    .SetSlidingExpiration(TimeSpan.FromMinutes(1))
+                    .SetAbsoluteExpiration(DateTime.Now.AddMinutes(5));
                 await _distributedCache.SetAsync(cacheKey, encodedForecasts, options);
             }
             return forecastList.Where(w => w.Region == region).ToList();
@@ -67,6 +69,16 @@ namespace DistributedCacheDemo.Application
                 .ToList();
 
             return Task.FromResult(weatherForecasts);
+        }
+
+        private static HttpClient GetHttpClient(string url)
+        {
+            var client = new HttpClient { BaseAddress = new Uri(url) };
+
+            client.DefaultRequestHeaders.Accept.Clear();
+            client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+
+            return client;
         }
     }
 }

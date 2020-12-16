@@ -6,6 +6,6 @@ namespace DistributedCacheDemo.Infra.Data
 {
     public interface IWeatherForecast
     {
-        Task<List<WeatherForecast>> GetWeatherForecastList();
+        Task<List<WeatherForecast>> GetWeatherForecast(string region);
     }
 }
