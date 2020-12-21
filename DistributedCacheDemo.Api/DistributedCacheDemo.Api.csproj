@@ -5,15 +5,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Cactus.Blade.Core" Version="1.2.3" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.1" NoWarn="NU1605" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="5.0.1" NoWarn="NU1605" />
     <PackageReference Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="5.0.1" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="StackExchange.Redis.Extensions.AspNetCore" Version="6.3.6" />
+    <PackageReference Include="StackExchange.Redis.Extensions.Core" Version="6.3.6" />
+    <PackageReference Include="StackExchange.Redis.Extensions.Newtonsoft" Version="6.3.6" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\DistributedCacheDemo.Infra.IoC\DistributedCacheDemo.Infra.IoC.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,4 +1,3 @@
-D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Api\obj\Debug\net5.0\DistributedCacheDemo.Api.csprojAssemblyReference.cache
 D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Api\obj\Debug\net5.0\DistributedCacheDemo.Api.GeneratedMSBuildEditorConfig.editorconfig
 D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Api\obj\Debug\net5.0\DistributedCacheDemo.Api.AssemblyInfoInputs.cache
 D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Api\obj\Debug\net5.0\DistributedCacheDemo.Api.AssemblyInfo.cs
@@ -16,7 +15,6 @@ D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Api\bin\Debug\net5.0\Di
 D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Api\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Api\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
 D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Api\bin\Debug\net5.0\Microsoft.Extensions.Caching.StackExchangeRedis.dll
-D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Api\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
 D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Api\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
 D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Api\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
 D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Api\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
@@ -35,14 +33,6 @@ D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Api\bin\Debug\net5.0\Sy
 D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Api\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
 D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Api\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll
 D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Api\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Api\bin\Debug\net5.0\DistributedCacheDemo.Application.dll
-D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Api\bin\Debug\net5.0\DistributedCacheDemo.Domain.dll
-D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Api\bin\Debug\net5.0\DistributedCacheDemo.Infra.Data.dll
-D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Api\bin\Debug\net5.0\DistributedCacheDemo.Infra.IoC.dll
-D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Api\bin\Debug\net5.0\DistributedCacheDemo.Infra.IoC.pdb
-D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Api\bin\Debug\net5.0\DistributedCacheDemo.Application.pdb
-D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Api\bin\Debug\net5.0\DistributedCacheDemo.Domain.pdb
-D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Api\bin\Debug\net5.0\DistributedCacheDemo.Infra.Data.pdb
 D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Api\obj\Debug\net5.0\staticwebassets\DistributedCacheDemo.Api.StaticWebAssets.Manifest.cache
 D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Api\obj\Debug\net5.0\staticwebassets\DistributedCacheDemo.Api.StaticWebAssets.xml
 D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Api\obj\Debug\net5.0\scopedcss\bundle\DistributedCacheDemo.Api.styles.css
@@ -54,3 +44,8 @@ D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Api\obj\Debug\net5.0\Di
 D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Api\obj\Debug\net5.0\DistributedCacheDemo.Api.genruntimeconfig.cache
 D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Api\bin\Debug\net5.0\Cactus.Blade.Core.dll
 D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Api\obj\Debug\net5.0\DistributedCacheDemo.Api.MvcApplicationPartsAssemblyInfo.cs
+D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Api\bin\Debug\net5.0\StackExchange.Redis.Extensions.Core.dll
+D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Api\obj\Debug\net5.0\DistributedCacheDemo.Api.csprojAssemblyReference.cache
+D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Api\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Api\bin\Debug\net5.0\StackExchange.Redis.Extensions.AspNetCore.dll
+D:\Job\Code\C#\DistributedCacheDemo\DistributedCacheDemo.Api\bin\Debug\net5.0\StackExchange.Redis.Extensions.Newtonsoft.dll

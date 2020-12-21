@@ -1,4 +1,4 @@
-using DistributedCacheDemo.Infra.IoC;
+using DistributedCacheDemo.Api.Infra.IoC;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -17,7 +17,7 @@ namespace DistributedCacheDemo.Api
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.RegisterServices();
+            services.RegisterServices(Configuration);
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

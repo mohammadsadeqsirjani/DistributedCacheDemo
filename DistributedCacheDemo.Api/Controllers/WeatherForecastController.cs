@@ -1,9 +1,7 @@
-﻿using DistributedCacheDemo.Application;
+﻿using DistributedCacheDemo.Api.Application.Interfaces;
 using Microsoft.AspNetCore.Mvc;
-using System.Collections.Generic;
 using System.Threading.Tasks;
-using DistributedCacheDemo.Infra.Data;
-using WeatherForecast = DistributedCacheDemo.Domain.Models.Weather.WeatherForecast;
+using WeatherForecast = DistributedCacheDemo.Api.Domain.Models.Weather.WeatherForecast;
 
 namespace DistributedCacheDemo.Api.Controllers
 {
@@ -19,11 +17,33 @@ namespace DistributedCacheDemo.Api.Controllers
         }
 
         [HttpGet("[action]/{region}")]
-        public async Task<IEnumerable<WeatherForecast>> GetWeatherForecast(string region)
+        public async Task<WeatherForecast> Get(string region)
         {
-            var weatherForecasts = await _weatherForecast.GetWeatherForecast(region);
+            var weatherForecast = await _weatherForecast.GetForecast(region);
 
-            return weatherForecasts;
+            return weatherForecast;
+        }
+
+        [HttpPost("[action]/{region}")]
+        public async Task<WeatherForecast> Post(string region)
+        {
+            var model = await _weatherForecast.AddForecast(region);
+
+            return model;
+        }
+
+        [HttpPut("[action]/{region}")]
+        public async Task<WeatherForecast> Put(string region)
+        {
+            var model = await _weatherForecast.ModifyForecast(region);
+
+            return model;
+        }
+
+        [HttpDelete("[action]/{region}")]
+        public async Task Delete(string region)
+        {
+            await _weatherForecast.DeleteForecast(region);
         }
     }
 }

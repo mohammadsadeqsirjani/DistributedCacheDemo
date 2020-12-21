@@ -1,7 +1,7 @@
-﻿using DistributedCacheDemo.Infra.Data;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using DistributedCacheDemo.Api.Application.Interfaces;
 
 namespace DistributedCacheDemo.Api.Controllers
 {
