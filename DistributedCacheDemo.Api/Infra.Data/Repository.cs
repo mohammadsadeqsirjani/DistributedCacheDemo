@@ -26,6 +26,19 @@ namespace DistributedCacheDemo.Api.Infra.Data
 
             return succeeded;
         }
+        public async Task<bool> TryDeleteAsync(string key)
+        {
+            var content = await TryGetAsync(key);
+
+            var succeeded = content.IsNull();
+
+            succeeded.IfFalse(async () =>
+            {
+                succeeded = await _client.Db0.RemoveAsync(key);
+            });
+
+            return succeeded;
+        }
 
         public async Task<bool> TryModifyAsync(string key, T model)
         {
@@ -41,18 +54,5 @@ namespace DistributedCacheDemo.Api.Infra.Data
             return succeeded;
         }
 
-        public async Task<bool> TryDeleteAsync(string key)
-        {
-            var content = await TryGetAsync(key);
-
-            var succeeded = content.IsNull();
-
-            succeeded.IfFalse(async () =>
-            {
-                succeeded = await _client.Db0.RemoveAsync(key);
-            });
-
-            return succeeded;
-        }
     }
 }

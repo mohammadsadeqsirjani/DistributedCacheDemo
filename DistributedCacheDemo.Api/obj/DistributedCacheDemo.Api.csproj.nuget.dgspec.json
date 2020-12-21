@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Job\\Code\\C#\\DistributedCacheDemo\\DistributedCacheDemo.Api\\DistributedCacheDemo.Api.csproj": {}
+    "D:\\Job\\Code\\C#\\Default\\DistributedCacheDemo\\DistributedCacheDemo.Api\\DistributedCacheDemo.Api.csproj": {}
   },
   "projects": {
-    "D:\\Job\\Code\\C#\\DistributedCacheDemo\\DistributedCacheDemo.Api\\DistributedCacheDemo.Api.csproj": {
+    "D:\\Job\\Code\\C#\\Default\\DistributedCacheDemo\\DistributedCacheDemo.Api\\DistributedCacheDemo.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Job\\Code\\C#\\DistributedCacheDemo\\DistributedCacheDemo.Api\\DistributedCacheDemo.Api.csproj",
+        "projectUniqueName": "D:\\Job\\Code\\C#\\Default\\DistributedCacheDemo\\DistributedCacheDemo.Api\\DistributedCacheDemo.Api.csproj",
         "projectName": "DistributedCacheDemo.Api",
-        "projectPath": "D:\\Job\\Code\\C#\\DistributedCacheDemo\\DistributedCacheDemo.Api\\DistributedCacheDemo.Api.csproj",
+        "projectPath": "D:\\Job\\Code\\C#\\Default\\DistributedCacheDemo\\DistributedCacheDemo.Api\\DistributedCacheDemo.Api.csproj",
         "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "D:\\Job\\Code\\C#\\DistributedCacheDemo\\DistributedCacheDemo.Api\\obj\\",
+        "outputPath": "D:\\Job\\Code\\C#\\Default\\DistributedCacheDemo\\DistributedCacheDemo.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",

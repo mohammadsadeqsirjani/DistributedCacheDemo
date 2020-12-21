@@ -1,5 +1,7 @@
 ﻿using DistributedCacheDemo.Api.Application.Interfaces;
+using DistributedCacheDemo.Api.Application.ViewModels;
 using Microsoft.AspNetCore.Mvc;
+using System.Diagnostics;
 using System.Threading.Tasks;
 using WeatherForecast = DistributedCacheDemo.Api.Domain.Models.Weather.WeatherForecast;
 
@@ -17,11 +19,21 @@ namespace DistributedCacheDemo.Api.Controllers
         }
 
         [HttpGet("[action]/{region}")]
-        public async Task<WeatherForecast> Get(string region)
+        public async Task<WeatherForecastDto> Get(string region)
         {
+            var stopwatch = new Stopwatch();
+
+            stopwatch.Start();
+
             var weatherForecast = await _weatherForecast.GetForecast(region);
 
-            return weatherForecast;
+            stopwatch.Stop();
+
+            return new WeatherForecastDto()
+            {
+                WeatherForecast = weatherForecast,
+                ElapsedTime = stopwatch.ElapsedMilliseconds
+            };
         }
 
         [HttpPost("[action]/{region}")]

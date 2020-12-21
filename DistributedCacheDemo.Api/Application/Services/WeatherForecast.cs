@@ -27,6 +27,7 @@ namespace DistributedCacheDemo.Api.Application.Services
             if (encodedForecasts.IsNotNull()) return encodedForecasts;
 
             encodedForecasts = await GenerateForecast(region);
+
             await AddForecast(region);
 
             return encodedForecasts;
@@ -35,8 +36,6 @@ namespace DistributedCacheDemo.Api.Application.Services
         public async Task<Domain.Models.Weather.WeatherForecast> AddForecast(string region)
         {
             var model = await GenerateForecast(region);
-
-            await Task.Delay(5000);
 
             await _repository.TrySetAsync(region, model);
 

@@ -1,7 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using System.Collections.Generic;
+﻿using DistributedCacheDemo.Api.Application.Interfaces;
+using DistributedCacheDemo.Api.Application.ViewModels;
+using Microsoft.AspNetCore.Mvc;
+using System.Diagnostics;
 using System.Threading.Tasks;
-using DistributedCacheDemo.Api.Application.Interfaces;
 
 namespace DistributedCacheDemo.Api.Controllers
 {
@@ -17,9 +18,21 @@ namespace DistributedCacheDemo.Api.Controllers
         }
 
         [HttpGet("[action]/{actor}")]
-        public async Task<List<string>> GetActorMovies(string actor)
+        public async Task<MovieDto> GetActorMovies(string actor)
         {
-            return await _tmdbApiCall.GetMovies(actor);
+            var stopwatch = new Stopwatch();
+
+            stopwatch.Start();
+
+            var movies = await _tmdbApiCall.GetMovies(actor);
+
+            stopwatch.Stop();
+
+            return new MovieDto()
+            {
+                Movies = movies,
+                ElapsedTime = stopwatch.ElapsedMilliseconds
+            };
         }
     }
 }
